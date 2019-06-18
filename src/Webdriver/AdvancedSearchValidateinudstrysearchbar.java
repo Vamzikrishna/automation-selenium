@@ -12,7 +12,7 @@ public class AdvancedSearchValidateinudstrysearchbar {
 		WebDriver driver=new FirefoxDriver();
 		driver.manage().window().maximize();
 		driver.get("https://developer:itshappening@dev.internrocket.com");	
-		Thread.sleep(10000);
+		Thread.sleep(3000);
 		driver.findElement(By.id("email")).sendKeys("sai.degala441@gmail.com");
 		driver.findElement(By.id("password")).sendKeys("satya2019");
 		driver.findElement(By.id("login")).click();

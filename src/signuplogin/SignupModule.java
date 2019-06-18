@@ -16,9 +16,9 @@ public class SignupModule {
 //        driver.findElement(By.id("Company page = false")).sendKeys("false");
 		driver.findElement(By.id("signup")).click();
 		Thread.sleep(2000);
-		driver.findElement(By.id("name")).sendKeys("satya450");
+		driver.findElement(By.id("name")).sendKeys("satya420");
 		Thread.sleep(2000);
-		driver.findElement(By.id("signupemail")).sendKeys("satya450@yopmail.com");
+		driver.findElement(By.id("signupemail")).sendKeys("satya420@yopmail.com");
 		Thread.sleep(2000);
 		driver.findElement(By.id("signuppassword")).sendKeys("satya2019");
 		Thread.sleep(2000);

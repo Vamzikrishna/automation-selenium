@@ -12,7 +12,7 @@ public class Logineditmodule {
 		WebDriver driver=new FirefoxDriver();
 		driver.manage().window().maximize();
 		driver.get("https://localhost:8443/?login");		
-		driver.findElement(By.id("email")).sendKeys("satya20@yopmail.com");
+		driver.findElement(By.id("email")).sendKeys("satya420@yopmail.com");
 		driver.findElement(By.id("password")).sendKeys("satya2019");
 		driver.findElement(By.id("login")).click();
 	    Thread.sleep(3000);
@@ -24,7 +24,7 @@ public class Logineditmodule {
         Thread.sleep(5000);
         driver.findElement(By.xpath("/html/body/div[1]/div/div[3]/div/div/section/article/div/div[2]/div/div[2]/div/div[1]/div/div[1]/div/div[2]/a")).click();
 	    Thread.sleep(3000);
-	    driver.findElement(By.id("vanityurl")).sendKeys("satya20");
+	    driver.findElement(By.id("vanityurl")).sendKeys("satya4420");
 	    Thread.sleep(3000);
 	    driver.findElement(By.xpath("/html/body/div[1]/div/div[3]/div/div/section/article/div/div[2]/div/form/div/div[1]/div[1]/div[4]/div[2]/button[2]")).click();
 	    Thread.sleep(5000);
@@ -86,7 +86,7 @@ public class Logineditmodule {
         driver.findElement(By.id("followclick")).click();
         Thread.sleep(3000);        
         driver.findElement(By.id("messageid")).click();
-        Thread.sleep(3000);
+        Thread.sleep(6000);
         driver.findElement(By.id("replyField")).sendKeys("Hi satya");
         Thread.sleep(3000);
         driver.findElement(By.xpath("/html/body/div[1]/div/div[3]/div/div/section/article/div/div[2]/div/div[3]/div/form/div/button")).click();

@@ -16,11 +16,11 @@ public class signupwithcompany {
 		Thread.sleep(2000);
 		driver.findElement(By.xpath("/html/body/div[1]/div/div[3]/div/div/section/article/div/div[2]/div/div/div[1]/div[4]/div/div/div/div/div/form/div[2]/div[2]/div/div/button[1]")).click();
         Thread.sleep(2000);
-        driver.findElement(By.id("companyinfo")).sendKeys("TECHNO10");
+        driver.findElement(By.id("companyinfo")).sendKeys("TECHNO20");
         Thread.sleep(2000);
-        driver.findElement(By.id("name")).sendKeys("Degala10");
+        driver.findElement(By.id("name")).sendKeys("Degala20");
         Thread.sleep(2000);
-        driver.findElement(By.id("signupemail")).sendKeys("degala10@yopmail.com");
+        driver.findElement(By.id("signupemail")).sendKeys("degala20@yopmail.com");
         Thread.sleep(2000);
         driver.findElement(By.id("signuppassword")).sendKeys("satya2019");
         Thread.sleep(2000);
@@ -44,7 +44,7 @@ public class signupwithcompany {
         Thread.sleep(5000);
         driver.findElement(By.xpath("/html/body/div[1]/div/div[3]/div/div/section/article/div/div[2]/div/div[2]/span/span/span/div[3]/div[3]/div[2]/div[3]/div/div/div[2]/div[2]/div/div")).click();
 		Thread.sleep(3000);
-		driver.findElement(By.id("name")).sendKeys("Dotnetjava7");
+		driver.findElement(By.id("name")).sendKeys("Dotnetjava10");
 		Thread.sleep(3000);
 		driver.findElement(By.id("txt")).sendKeys("You can find it all in this post, and at the top of the site. Please don't forget to subscribe to our twitter feed as well as our RSS feed. On the left side, we have a feedback button");
 		Thread.sleep(3000);

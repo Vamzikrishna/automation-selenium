@@ -4,5 +4,8 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="lib" path="D:/Library/selenium-server-standalone-3.141.59.jar"/>
 	<classpathentry kind="lib" path="D:/Library/selenium-chrome-driver-2.26.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abhisekh Biswas/Downloads/activation-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abhisekh Biswas/Downloads/javax.mail-1.6.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abhisekh Biswas/Downloads/commons-email-1.5.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
