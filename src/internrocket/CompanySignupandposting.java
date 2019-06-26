@@ -17,11 +17,11 @@ public class CompanySignupandposting {
 		Thread.sleep(2000);
 		driver.findElement(By.xpath("/html/body/div[1]/div/div[3]/div/div/section/article/div/div[2]/div/div/div[1]/div[4]/div/div/div/div/div/form/div[2]/div[2]/div/div/button[1]")).click();
         Thread.sleep(2000);
-        driver.findElement(By.xpath("/html/body/div[1]/div/div[3]/div/div/section/article/div/div[2]/div/div/div[1]/div[4]/div/div/div/div/div/form/input[1]")).sendKeys("TECHNO20");
+        driver.findElement(By.xpath("/html/body/div[1]/div/div[3]/div/div/section/article/div/div[2]/div/div/div[1]/div[4]/div/div/div/div/div/form/input[1]")).sendKeys("TECHNO31");
         Thread.sleep(2000);
-        driver.findElement(By.xpath("/html/body/div[1]/div/div[3]/div/div/section/article/div/div[2]/div/div/div[1]/div[4]/div/div/div/div/div/form/input[2]")).sendKeys("Degala20");
+        driver.findElement(By.xpath("/html/body/div[1]/div/div[3]/div/div/section/article/div/div[2]/div/div/div[1]/div[4]/div/div/div/div/div/form/input[2]")).sendKeys("Degala31");
         Thread.sleep(2000);
-        driver.findElement(By.xpath("/html/body/div[1]/div/div[3]/div/div/section/article/div/div[2]/div/div/div[1]/div[4]/div/div/div/div/div/form/input[3]")).sendKeys("degala20@yopmail.com");
+        driver.findElement(By.xpath("/html/body/div[1]/div/div[3]/div/div/section/article/div/div[2]/div/div/div[1]/div[4]/div/div/div/div/div/form/input[3]")).sendKeys("degala31@yopmail.com");
         Thread.sleep(2000);
         driver.findElement(By.xpath("/html/body/div[1]/div/div[3]/div/div/section/article/div/div[2]/div/div/div[1]/div[4]/div/div/div/div/div/form/input[4]")).sendKeys("satya2019");
         Thread.sleep(2000);
